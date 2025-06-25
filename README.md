@@ -88,3 +88,9 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
     --header 'Content-Type: application/json' \
     --data '{"prompt": "What’s the data type and length of MAKT-MAKTX?"}
 ```
+
+## API Documentation
+
+Once the service is running, you can access the interactive API documentation (provided by Swagger UI) at:
+
+[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
