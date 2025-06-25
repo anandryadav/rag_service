@@ -1,0 +1,9 @@
+field_name,description,data_type,length
+MARA-MATNR,"Material Number, the unique identifier for a material master record.",CHAR,18
+MARA-ERSDA,"Creation date of the material master record.",DATS,8
+MARA-MTART,"Material Type, used to group materials with the same basic attributes.",CHAR,4
+MAKT-MAKTX,"Material Description in a specific language.",CHAR,40
+MAKT-SPRAS,"Language key for the material description.",LANG,1
+EKKO-EBELN,"Purchasing Document Number, unique identifier for a purchase order.",CHAR,10
+EKPO-EBELP,"Item number of the purchasing document.",NUMC,5
+EKPO-MATNR,"Material number for the purchase order item.",CHAR,18
