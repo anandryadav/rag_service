@@ -35,7 +35,7 @@ It is highly recommended to use a virtual environment to manage dependencies.
 
 ```bash
    # Navigate to the project directory
-   cd llm-connector-service
+   cd rag_service
    
    # Create a virtual environment
    python -m venv venv
@@ -81,7 +81,7 @@ The service requires an OpenAI API key to function.
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ````
 
-### Access the service at `http://localhost:8000/docs` to interact with the API.
+### Access the service at `http://localhost:8000/` to interact with the API.
 
 ```
     curl --location 'http://localhost:8000/llm/query' \
